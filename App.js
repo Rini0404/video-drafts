@@ -16,7 +16,7 @@ export default function App() {
           headerShown: false,
         }}
         name="Home" component={Home} />
-        <Stack.Screen name="Save" component={SaveScreen} />
+        <Stack.Screen options={{ headerShown: false}} name="Save" component={SaveScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
